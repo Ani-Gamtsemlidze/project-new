@@ -35,7 +35,6 @@
 
 li{
     list-style: none;
-   
     padding: 12px;
     text-decoration: none;
     font-size: 15px;
@@ -96,7 +95,7 @@ li:hover a {
 }
 .second-page{
     width: 100%;
-    height: 400px;
+    padding: 90px 0;
     background-color:#f05f40;
 }
 .txt-second{
@@ -114,6 +113,7 @@ li:hover a {
     font-size: 2rem;
 }
 .need-sec{
+    margin-top: 30px;
     width: 60%;
     font-size: 20px;
     text-align: center;
@@ -122,6 +122,7 @@ li:hover a {
 
 }
 .line-white{
+    margin-top: 30px;
     background-color: #fff;
     z-index: 1;
     width: 70px;
@@ -140,6 +141,7 @@ li:hover a {
     border-style: none;
     text-transform: uppercase;
     font-weight: 700;
+    margin-top: 30px;
     
 }
 .third-page{
@@ -206,21 +208,23 @@ h3{
 .gallery-first{
     display: flex;
 }
+.back-name{
+    position: absolute;
+}
 .back{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 449.5px;
     height: 220px;
-    background-color: #f05f40;
-    position: absolute;
-    opacity: 0;
+    background-color: transparent;
     transition: 0.3s;
+    position: absolute;
 
 }
-.background h2{
-    z-index: 1;
-    color: #fff;
-    text-transform: capitalize;
-    position: absolute;
+.back h2{
     opacity: 0;
+    text-transform: capitalize;
     font-size: 40px;
     transition: 0.3s;
 }
@@ -229,24 +233,26 @@ h3{
     justify-content: center;
     align-items: center;
 }
-.background:hover .back{
-    opacity: 0.8;
+.back:hover{
+    background-color: rgba(240, 95, 64, 0.8);
     cursor: pointer;
 }
-.background:hover h2{
+.back:hover h2{
     cursor: pointer;
     opacity: 1;
+    color: #ffffff;
+    
 }
 .black-page{
     width: 100%;
-    height: 300px;
+    padding: 90px 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: #212529;
 }
-.black-page p{
+.black-page h2{
     font-weight: 700;
     color: #fff;
     font-size: 40px;
@@ -267,5 +273,54 @@ h3{
     margin-top: 35px;
     font-weight: 700;
 }
+.last-page{
+    width: 100%;
+    margin: 90px 0 100px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.last-line{
+    background-color: #f05f40;
+    width: 70px;
+    height: 4px;
+    margin: 30px auto;
+}
+.last-page p{
+    font-size: 17px;
+    margin-top: 20px;
+    width: 60%;
+    text-align: center;
+}
+.last-page h2{
+    font-size: 30px;
+    margin-top: 30px;
+}
+.img-last{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.phone{
+    padding: 0 80px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.phone img{
+    width: 45px;
+    height: 45px;  
+
+}
+.phone span{
+    padding-top: 25px;
+    font-size: 15px;
+    text-align: center; 
+}
+
+
 
 
