@@ -392,6 +392,7 @@ h3{
     .serv h3{
         text-align: center;
         font-size: 16px;
+        margin-top: 50px;
     }
 
 
@@ -421,52 +422,59 @@ h3{
     }
     .black-page h2{
         text-align: center;
-        margin-top: 50px;
-        font-size: 25px;
+        margin: 15px 20px;
+        font-size: 20px;
     }
     .black-page a{
         text-align: center;
         width: 150px;
         height: 50px;
         font-size: 14px;
+        margin-top: 25px;
         
+    }
+    .black-page{
+        padding: 40px 0;
     }
     .last-page h2{
         text-align: center;
-        font-size: 4rem;
+        font-size: 20px;
+        margin: 0;
     }
     .last-line{
-        width: 130px;
-        height: 8px;
-        margin-top: 30px;
+        width: 70px;
+        height: 5px;
+        margin: 10px 0;
     }
     .last-page p{
-        font-size: 2rem;
+        font-size: 16px;
         width: 80%;
 
     }
     .img-last{
-        margin: 20px;
+        
         width: 100%;
 
     }
     .phone{
-        padding: 0;
+        padding: 10px;
+        margin-top: 50px;
     }
     .phone img{
-        width: 70px;
-        height: 70px;
-        padding: 0;
+        width: 35px;
+        height: 35px;
+       
 
     }
     .phone span{
-        font-size: 3px;
+        font-size: 14px;
         text-align: center;
-        padding: 0;
-        padding-top: 30px;
+        
+        padding-top: 20px;
     }
     .last-page{
         display: flex;
+        padding: 40px 0;
     }
     .background{
         width: 100%;
@@ -474,14 +482,20 @@ h3{
     .background img{
         width: 100%;
         height: 220px;
+        margin-bottom: 10px;
         
+    }
+    .background img :nth-of-type(6){
+        margin-bottom: 0;
     }
     .back{
         width: 100%;
         height: 220px;
+        margin-bottom: 10px;
     }
     .back h2{
         font-size: 35px;
+        
     }
     .gallery-first{
         display: flex;
@@ -489,6 +503,10 @@ h3{
         justify-content: space-between;
 
     }
+    .second-page{
+        padding: 40px 0;
+    }
+    
 
 
    
